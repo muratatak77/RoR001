@@ -1,0 +1,27 @@
+<b> <%=   @channel_title %>,  <%= @program_name %> Programi Bolumleri</b>
+<p>
+<table border="1" style="width: 50%">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Tarih</th>
+				<th>Sure</th>
+				<th colspan="2">Video</th>
+				
+			</tr>
+		</thead>
+	<tbody>
+
+	<% @episodes.each do |eps| %>
+		<tr>
+			<td><%= eps.instance_variable_get(:@id) %> </td>
+			<td><%= eps.instance_variable_get(:@title) %> </td>
+			<td><%= eps.instance_variable_get(:@duration) %> </td>
+			<td style="text-align: center;"><img style="width: 50%;" src="<%= eps.instance_variable_get(:@thumb) %>" /> </td>
+			<td><a href="<%= eps.instance_variable_get(:@kure_url) %>" target = "_blank" > Video </a></td>
+		</tr>
+	<% end %>
+
+	</tbody>
+
+</table>
