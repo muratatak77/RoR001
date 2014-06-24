@@ -1,11 +1,12 @@
 GIT
   remote: git@github.com:samanyolu/kure_api_gem.git
-  revision: 7d41f4c736377d34e359b153c58e81722700e19f
+  revision: 088ecef6271af6c12b1c09fe5f58fd79db2d0e46
   branch: master
   specs:
     kure (0.0.1)
-      json
-      typhoeus
+      dalli (~> 2.7)
+      json (~> 1.4)
+      typhoeus (~> 0.6)
 
 GEM
   remote: https://rubygems.org/
@@ -45,6 +46,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.0)
+    dalli (2.7.2)
     erubis (2.7.0)
     ethon (0.7.0)
       ffi (>= 1.3.0)

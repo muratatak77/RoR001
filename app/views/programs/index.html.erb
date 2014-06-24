@@ -16,12 +16,12 @@
 
 	<% @programs.each do |prg| %>
 		<tr>
-			<td><%= prg.instance_variable_get(:@id) %> </td>
-			<td><%= prg.instance_variable_get(:@title) %> </td>
-			<td><%= prg.instance_variable_get(:@description)[0..200] %>... </td>
-			<td><%= prg.instance_variable_get(:@duration) %></td>
-			<td style="text-align:center;"><img style="width:50%" src="<%= prg.instance_variable_get(:@thumb) %>" /></td>
-			<td><a href="/programlar/<%= prg.instance_variable_get(:@id) %>" > Bolumler</a> </td>
+			<td><%= prg.id %> </td>
+			<td><%= prg.title %> </td>
+			<td><%= prg.description[0..200] %>... </td>
+			<td><%= prg.duration %></td>
+			<td style="text-align:center;"><img style="width:50%" src="<%= prg.thumb %>" /></td>
+			<td><a href="/programlar/<%= prg.id %>-<%= prg.title.parameterize %>-"> Bolumler</a> </td>
 		</tr>
 	<% end %>
 

@@ -1,0 +1,19 @@
+# Logfile created on 2014-06-16 11:00:03 +0300 by logger.rb/41954
+I, [2014-06-16 11:00:03#991]  INFO -- : START NEW REQUEST : get_programs called with opt :{}
+I, [2014-06-16 11:00:03#991]  INFO -- : Created Link = http://api.kure.tv/json?cmd=get_programs&auth=b48e34ad49209ff30e03dbaba30de063d10c198bf5ca2ae5d71b62025188a355&tid=1402905603
+I, [2014-06-16 11:00:03#991]  INFO -- : You want to Typhoeus Caching that will be created. Url : http://api.kure.tv/json?cmd=get_programs&auth=b48e34ad49209ff30e03dbaba30de063d10c198bf5ca2ae5d71b62025188a355&tid=1402905603. Cache = true
+I, [2014-06-16 11:00:04#991]  INFO -- : Typhoeus Cache No. Creating new cache by url. Url :http://api.kure.tv/json?cmd=get_programs&auth=b48e34ad49209ff30e03dbaba30de063d10c198bf5ca2ae5d71b62025188a355&tid=1402905603
+I, [2014-06-16 11:00:04#991]  INFO -- : Connection success. Typhoues request url : http://api.kure.tv/json?cmd=get_programs&auth=b48e34ad49209ff30e03dbaba30de063d10c198bf5ca2ae5d71b62025188a355&tid=1402905603
+I, [2014-06-16 11:00:04#991]  INFO -- : STOP REQUEST. Response body return by hash. Url : http://api.kure.tv/json?cmd=get_programs&auth=b48e34ad49209ff30e03dbaba30de063d10c198bf5ca2ae5d71b62025188a355&tid=1402905603
+I, [2014-06-16 11:00:14#991]  INFO -- : START NEW REQUEST : get_programs called with opt :{}
+I, [2014-06-16 11:00:14#991]  INFO -- : Created Link = http://api.kure.tv/json?cmd=get_programs&auth=b48e34ad49209ff30e03dbaba30de063d10c198bf5ca2ae5d71b62025188a355&tid=1402905614
+I, [2014-06-16 11:00:14#991]  INFO -- : You want to Typhoeus Caching that will be created. Url : http://api.kure.tv/json?cmd=get_programs&auth=b48e34ad49209ff30e03dbaba30de063d10c198bf5ca2ae5d71b62025188a355&tid=1402905614. Cache = true
+I, [2014-06-16 11:00:14#991]  INFO -- : Typhoeus Cache No. Creating new cache by url. Url :http://api.kure.tv/json?cmd=get_programs&auth=b48e34ad49209ff30e03dbaba30de063d10c198bf5ca2ae5d71b62025188a355&tid=1402905614
+I, [2014-06-16 11:00:14#991]  INFO -- : Connection success. Typhoues request url : http://api.kure.tv/json?cmd=get_programs&auth=b48e34ad49209ff30e03dbaba30de063d10c198bf5ca2ae5d71b62025188a355&tid=1402905614
+I, [2014-06-16 11:00:14#991]  INFO -- : STOP REQUEST. Response body return by hash. Url : http://api.kure.tv/json?cmd=get_programs&auth=b48e34ad49209ff30e03dbaba30de063d10c198bf5ca2ae5d71b62025188a355&tid=1402905614
+I, [2014-06-16 11:00:31#991]  INFO -- : START NEW REQUEST : get_episodes called with opt :{"program_id"=>"5"}
+I, [2014-06-16 11:00:31#991]  INFO -- : Created Link = http://api.kure.tv/json?cmd=get_episodes&auth=b48e34ad49209ff30e03dbaba30de063d10c198bf5ca2ae5d71b62025188a355&program_id=5&tid=1402905631
+I, [2014-06-16 11:00:31#991]  INFO -- : You want to Typhoeus Caching that will be created. Url : http://api.kure.tv/json?cmd=get_episodes&auth=b48e34ad49209ff30e03dbaba30de063d10c198bf5ca2ae5d71b62025188a355&program_id=5&tid=1402905631. Cache = true
+I, [2014-06-16 11:00:31#991]  INFO -- : Typhoeus Cache No. Creating new cache by url. Url :http://api.kure.tv/json?cmd=get_episodes&auth=b48e34ad49209ff30e03dbaba30de063d10c198bf5ca2ae5d71b62025188a355&program_id=5&tid=1402905631
+I, [2014-06-16 11:00:31#991]  INFO -- : Connection success. Typhoues request url : http://api.kure.tv/json?cmd=get_episodes&auth=b48e34ad49209ff30e03dbaba30de063d10c198bf5ca2ae5d71b62025188a355&program_id=5&tid=1402905631
+I, [2014-06-16 11:00:31#991]  INFO -- : STOP REQUEST. Response body return by hash. Url : http://api.kure.tv/json?cmd=get_episodes&auth=b48e34ad49209ff30e03dbaba30de063d10c198bf5ca2ae5d71b62025188a355&program_id=5&tid=1402905631
